@@ -23,13 +23,13 @@ println(myreverse(vec2))
 
 # Write a function `uppercaseWords` that takes a string as input, splits it at all whitespaces and returns a vector of the words that start with an uppercase letter.
 
-function uppsercaseWords(str)
+function uppercaseWords(str)
     return [word for word in split(str) if isuppercase(word[1])]
 end
 
 # test
 str = "The name is Julia"
-println(uppsercaseWords(str))
+println(uppercaseWords(str))
 
 #=
 function uppercaseWords(str)
