@@ -1,5 +1,5 @@
 # Exercise 2
-# Jinghua Xu(4153335), 28. June, 2020
+# Jinghua Xu, 28. June, 2020
 
 # a function `rowwise` that takes a vector of vectors of equal length and returns a matrix where the input vectors are the rows of the resulting matrix. If the input vectors are of unequal length, the function should raise an error
 function rowwise(vectors)
