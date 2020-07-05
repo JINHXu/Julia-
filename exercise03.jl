@@ -1,5 +1,5 @@
 # Exercise 03
-# Jinghua Xu(4153335) 4.July, 2020
+# Jinghua Xu 4.July, 2020
 
 # the function takes a vector of vectors and return true if the vectors are of the same length, false otherwise
 function same_length(v)
@@ -135,9 +135,3 @@ end
 @time begin
     fibonacciM(n,fibM)
 end
-
-#=
-Observation
-When n is relatively small, fibonacciM has shorter runtime, while as n increses, fibonacci outperforms fibonacciM in terms of runtime.
-Random guess: could be that the accessing the value of a dictionary taks more time than accessing array in Julia.
-=#
