@@ -30,7 +30,7 @@ function interleave(vectors)
     interleaved_vec = []
     for idx in collect(1:length(vectors[1]))
         for vector in vectors
-            append!(interleaved_vec, vector[idx])
+            push!(interleaved_vec, vector[idx])
         end
     end
     return interleaved_vec
